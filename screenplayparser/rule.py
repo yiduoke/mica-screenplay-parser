@@ -113,35 +113,49 @@ def separate_dial_meta(line_str):
 # DIALOGUE IS WHATEVER IMMEDIATELY FOLLOWS CHARACTER
 # EITHER CHARACTER OR DIALOGUE MIGHT CONTAIN DILAOGUE METADATA; WILL BE DETECTED LATER
 def get_char_dial(script_noind, tag_vec, tag_set, char_max_words):
-	def is_irish_scottish_name(text):
-		# Check for Irish/Scottish naming patterns: McDERMOTT, MacTAVISH
-		# Note: O'BRIEN already works with .isupper() since apostrophe is not a letter
-		words = text.split()
-		if not words:
-			return False
-		for word in words:
-			# Remove parentheticals
-			clean_word = word.strip('()')
-			if not clean_word:
-				continue
-			# Check for Mc/Mac patterns (lowercase c makes .isupper() fail)
-			if clean_word.startswith(("Mc", "Mac")):
-				# Check if rest is uppercase
-				rest = clean_word[2:] if clean_word.startswith("Mc") else clean_word[3:]
-				if rest and rest.isupper():
-					return True
+	def is_valid_character_word(word):
+		# Check if a single word is valid for a character name
+		# Either fully uppercase OR Irish/Scottish pattern
+		clean_word = word.strip('()')
+		if not clean_word:
+			return True  # Empty after stripping parentheses is okay
+
+		# Check if fully uppercase (handles JOHN, O'BRIEN, etc.)
+		if clean_word.isupper():
+			return True
+
+		# Check for Mc/Mac patterns (lowercase c makes .isupper() fail)
+		if clean_word.startswith(("Mc", "Mac")):
+			rest = clean_word[2:] if clean_word.startswith("Mc") else clean_word[3:]
+			if rest and rest.isupper():
+				return True
+
 		return False
 
-	def has_uppercase_word(text):
-		# Original check: at least one fully uppercase word
-		return any([y.isupper() for y in text.split()])
+	def all_words_uppercase(text):
+		# Character names should have ALL words uppercase (or Irish/Scottish pattern)
+		# Remove parentheticals first
+		clean_text = text.strip('()')
+		words = clean_text.split()
+		if not words:
+			return False
+		return all([is_valid_character_word(word) for word in words])
 
-	char_ind = [i for i, x in enumerate(script_noind) if tag_vec[i] not in tag_set and (has_uppercase_word(x) or is_irish_scottish_name(x))\
+	def has_dialogue_punctuation(text):
+		# Character names shouldn't have dialogue punctuation
+		# Note: periods are allowed for abbreviations like LT. WALKER, DR. SMITH
+		dialogue_punct = ['!', '?', ',', ';']
+		# Remove parentheses first to check the actual name
+		clean_text = text.strip('()')
+		return any(punct in clean_text for punct in dialogue_punct)
+
+	char_ind = [i for i, x in enumerate(script_noind) if tag_vec[i] not in tag_set and all_words_uppercase(x)\
 														and i != 0 and i != (len(script_noind) - 1)\
 														# and len(script_noind[i - 1].split()) == 0\
 														and len(script_noind[i + 1].split()) > 0\
 														and len(x.split()) < char_max_words\
-														and any([separate_dial_meta(x)[y] for y in [0, 2]])]
+														and any([separate_dial_meta(x)[y] for y in [0, 2]])\
+														and not has_dialogue_punctuation(x)]
 	if len(char_ind) > 0:
 		if char_ind[-1] < (len(script_noind) - 1):
 			char_ind += [len(script_noind) - 1]
