@@ -1,0 +1,17 @@
+# Core dependencies for mica-screenplay-parser
+# Python 3.8 recommended
+
+# Deep Learning
+torch>=1.7.0
+
+# NLP Libraries
+sentence-transformers>=2.2.0
+spacy>=3.0.0
+
+# Data Processing
+numpy
+pandas
+
+# Note: After installing these requirements, you must also download the spaCy model:
+# python -m spacy download en_core_web_lg
+
