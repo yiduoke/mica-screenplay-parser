@@ -1,8 +1,18 @@
 from screenplayparser import ScreenplayParser
 import os
 
-film_name = "american_psycho"
+# Prompt user for film name
+film_name = input("Enter film name (e.g., 'american_psycho'): ").strip()
+if not film_name:
+    print("Error: Film name cannot be empty")
+    exit(1)
+
 SCRIPT_PATH = f"data/screenplays/screenplays/{film_name}.txt"
+
+# Check if file exists
+if not os.path.exists(SCRIPT_PATH):
+    print(f"Error: File not found at {SCRIPT_PATH}")
+    exit(1)
 
 # Create rule-based parser
 rule_parser = ScreenplayParser(use_rules=True)
