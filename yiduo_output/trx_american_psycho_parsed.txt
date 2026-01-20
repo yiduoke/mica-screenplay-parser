@@ -2,15 +2,15 @@ O:
 O: 
 O: 
 O: 		
-M: AMERICAN PSYCHO
+T: AMERICAN PSYCHO
 O: 
-M: by
-M: Mary Harron and Guinevere Turner
+O: by
+S: Mary Harron and Guinevere Turner
 O: 
-M: Based on the novel by Bret Easton Ellis 
+N: Based on the novel by Bret Easton Ellis 
 O: 
-M: Fourth Draft 
-M: November 1998
+C: Fourth Draft 
+O: November 1998
 O: 
 O: 
 S: INT. PASTELS RESTAURANT- NIGHT 
@@ -68,36 +68,36 @@ D: between us. McDermott is the biggest asshole. Van
 D: Patten is the yes man. Price is the most wired. I'm the 
 D: best looking. We all have light tans. Right now I'm in a 
 D: bad mood because this is not a good table, and Van Patten 
-D: keeps asking dumb, obvious questions about how to dress . 
+N: keeps asking dumb, obvious questions about how to dress . 
 O: 
 C: VAN PATTEN 
 D: What are the rules for a sweater vest?
 O: 
-N: McDERMOTT 
-N: What do you mean?
+C: McDERMOTT 
+D: What do you mean?
 O: 
 C: PRICE 
 D: Yes. Clarify.
 O: 
-N: McDERMOTT 
-N: Well, is it strictly informal-
+C: McDERMOTT 
+D: Well, is it strictly informal-
 O: 
 C: BATEMAN 
 D: Or can it be worn with a suit?
 O: 
-N: McDERMOTT 
-N: (Smiling) 
-N: Exactly
+C: McDERMOTT 
+E: (Smiling) 
+D: Exactly
 O: 
 C: BATEMAN 
 D: With discreet pinstripes you should wear a subdued blue or 
 D: charcoal gray vest. A plaid suit would cal I for a bolder 
 D: vest.
 O: 
-N: McDERMOTT 
-N: But avoid matching the vest's pattern with your socks or
-N: tie. Wearing argyle socks with an argyle vest will look 
-N: too studied.
+C: McDERMOTT 
+D: But avoid matching the vest's pattern with your socks or
+D: tie. Wearing argyle socks with an argyle vest will look 
+D: too studied.
 O: 
 C: VAN PATTEN 
 D: You think so?
@@ -117,31 +117,31 @@ O:
 C: PRICE 
 D: It looks that way, doesn't it?
 O: 
-N: McDERMOTT 
-N: (Staring at retreating waiter) 
-N: Did he just take our plates away?
+C: McDERMOTT 
+E: (Staring at retreating waiter) 
+D: Did he just take our plates away?
 O: 
 C: PRICE 
 D: He took them away because the portions are so small he 
 D: probably thought we were finished. God, I hate this place. 
 D: This is a chicks' restaurant. Why aren't we at Dorsia?
 O: 
-N: McDERMOTT 
-N: Because Bateman won't give the maitre d' head.
-N: (He guffaws)
+C: McDERMOTT 
+D: Because Bateman won't give the maitre d' head.
+E: (He guffaws)
 O: 
 N: Bateman throws a swizzle stick at him.
 O: 
 N: McDermott scans the room, settling on a handsome young man
 N: with slicked-back hair and horn-rimmed glasses.
 O: 
-N: McDERMOTT 
-N: Is that Reed Robinson over there?
-C: PRICE 
+C: McDERMOTT 
+D: Is that Reed Robinson over there?
+D: PRICE 
 D: Are you freebasing or what? That's not Robinson.
 O: 
-N: McDERMOTT 
-N: Who is it then?
+C: McDERMOTT 
+D: Who is it then?
 O: 
 C: PRICE 
 D: That's Paul Owen.
@@ -153,13 +153,13 @@ O:
 N: He points to another handsome young man with slicked-back 
 N: hair and horn-rimmed glasses.
 O: 
-N: McDERMOTT 
-N: Who is he with?
+C: McDERMOTT 
+D: Who is he with?
 O: 
 C: PRICE 
 E: (Distracted by the waitress's 
 E: cleavage as she bends over to 
-E: uncork a bottle of wine  the 
+D: uncork a bottle of wine  the 
 E: waitress glares at him) 
 D: Some weasel from Kicker Peabody.
 O: 
@@ -168,44 +168,44 @@ O:
 C: VAN PATTEN 
 D: They don't have a good bathroom to do coke in.
 O: 
-N: McDERMOTT 
-N: Are you sure that's Paul Owen over there?
+C: McDERMOTT 
+D: Are you sure that's Paul Owen over there?
 O: 
 C: PRICE 
 D: Yes. McDufus, I am.
 O: 
-N: McDERMOTT 
-N: He's handling the Fisher account.
+C: McDERMOTT 
+D: He's handling the Fisher account.
 O: 
 C: PRICE 
 D: Lucky bastard.
 O: 
-N: McDERMOTT 
-N: Lucky Jew bastard.
+C: McDERMOTT 
+D: Lucky Jew bastard.
 O: 
 C: BATEMAN 
 D: Oh Jesus, McDermott, what does that have to do with 
 D: anything?
 O: 
-N: McDERMOTT 
-N: Listen. I've seen the bastard sitting in his office on the
-N: phone with CEOs, spinning a fucking menorah. The 
-N: bastard brought a Hanukkah bush into the office last December.
+C: McDERMOTT 
+D: Listen. I've seen the bastard sitting in his office on the
+D: phone with CEOs, spinning a fucking menorah. The 
+D: bastard brought a Hanukkah bush into the office last December.
 O: 
 C: BATEMAN 
 D: You spin a dreidel, McDermott, not a menorah. 
 D: You spin a dreidel.
 O: 
-N: McDERMOTT 
-N: Oh my God. Bateman, do you want me to fry you up
-N: some fucking potato pancakes? Some latkes?
+C: McDERMOTT 
+D: Oh my God. Bateman, do you want me to fry you up
+D: some fucking potato pancakes? Some latkes?
 O: 
 C: BATEMAN 
 D: No. Just cool it with the anti-Semitic remarks.
 O: 
-N: McDERMOTT 
-N: Oh I forgot. Bateman's dating someone from the 
-N: ACLU.
+C: McDERMOTT 
+D: Oh I forgot. Bateman's dating someone from the 
+D: ACLU.
 O: 
 N: Price leans over and pats Bateman on the back.
 O: 
@@ -215,8 +215,8 @@ D: of reasonable...
 O: 
 N: He shows McDermott the bill for the meal.
 O: 
-N: McDERMOTT 
-N: Only $470.
+C: McDERMOTT 
+D: Only $470.
 O: 
 C: VAN PATTEN 
 E: (Without irony) 
@@ -229,55 +229,55 @@ S: INT. LIMOUSINE - NIGHT
 N: Bateman is pouring vintage champagne into flutes. Price is 
 N: lighting up a cigar.
 O: 
-N: McDERMOTT 
-N: Last week I picked up this Vassar chick-
+C: McDERMOTT 
+D: Last week I picked up this Vassar chick-
 O: 
 C: VAN PATTEN 
 D: Oh God, I was there. I don't need to hear this 
 D: story again.
 O: 
-N: McDERMOTT 
-N: But I never told you what happened afterwards. So 
-N: okay, I pick up this Vassar chick at Tunnel-hot number, big 
-N: tits, great legs, this chick was a little hardbody-and so I 
-N: buy her a couple of champagne kirs and she's in the city on 
-N: spring break and she's practically blowing me in the 
-N: Chandelier Room and so I take her back to my place-
+C: McDERMOTT 
+D: But I never told you what happened afterwards. So 
+D: okay, I pick up this Vassar chick at Tunnel-hot number, big 
+D: tits, great legs, this chick was a little hardbody-and so I 
+D: buy her a couple of champagne kirs and she's in the city on 
+D: spring break and she's practically blowing me in the 
+D: Chandelier Room and so I take her back to my place-
 O: 
 C: BATEMAN 
 D: Whoa, wait. May I ask where Pamela is during all 
 D: this?
 O: 
-N: McDERMOTT 
-N: Oh fuck you. I want a blowjob, Bate-man. I want a chick 
-N: who's gonna let me-
+C: McDERMOTT 
+D: Oh fuck you. I want a blowjob, Bate-man. I want a chick 
+D: who's gonna let me-
 O: 
 C: VAN PATTEN 
 E: (Putting his hands over his ears) 
 D: I don't want to hear this. He's going to say something 
 D: disgusting.
 O: 
-N: McDERMOTT 
-N: You prude. Listen, we're not gonna invest in a co-op 
-N: together or jet down to Saint Bart's. I just want some 
-N: chick whose face I can sit on for thirty, forty minutes.
+C: McDERMOTT 
+D: You prude. Listen, we're not gonna invest in a co-op 
+D: together or jet down to Saint Bart's. I just want some 
+D: chick whose face I can sit on for thirty, forty minutes.
 O: 
 N: Price throws a cigar at McDermott, who catches it.
 O: 
-N: McDERMOTT 
-N: Anyway, so we're back at my place and listen to 
-N: this. She's had enough champagne by now to get a fucking 
-N: rhino tipsy, and get this-
+C: McDERMOTT 
+D: Anyway, so we're back at my place and listen to 
+D: this. She's had enough champagne by now to get a fucking 
+D: rhino tipsy, and get this-
 O: 
 C: VAN PATTEN 
 D: She let you fuck her without a condom?
 O: 
-N: McDERMOTT 
-N: This is a Vassar girl. She's not from Queens. She 
-N: would only-are you ready? 
-N: (Dramatic pause) 
-N: She would only give me a handjob, and get this...she kept 
-N: her glove on.
+C: McDERMOTT 
+D: This is a Vassar girl. She's not from Queens. She 
+D: would only-are you ready? 
+E: (Dramatic pause) 
+D: She would only give me a handjob, and get this...she kept 
+D: her glove on.
 O: 
 N: The men sit in shocked, horrified silence.
 O: 
@@ -289,9 +289,9 @@ N: The limo pulls up to the sidewalk outside the Tunnel.
 N: McDermott holds the door open for a passing HOMELESS MAN, 
 N: who looks confused.
 O: 
-N: McDERMOTT 
-N: I suppose he doesn't want the car. Price, ask 
-N: him if he takes American Express.
+C: McDERMOTT 
+D: I suppose he doesn't want the car. Price, ask 
+D: him if he takes American Express.
 O: 
 C: PRICE 
 E: (Offering card) 
@@ -342,8 +342,8 @@ C: BATEMAN
 D: Maybe it's just the light.
 O: 
 C: PRICE 
-E: Is he fucking selling it by the milligram? (He dips 
-E: the corner of his Amex card in the packet and takes a snort) 
+D: Is he fucking selling it by the milligram? (He dips 
+N: the corner of his Amex card in the packet and takes a snort) 
 D: Oh my God...
 O: 
 C: BATEMAN 
@@ -378,16 +378,16 @@ C: BATEMAN
 D: Calm down. Let's do it anyway
 O: 
 C: PRICE 
-C: I guess you're right...
+D: I guess you're right...
 E: (Raising his voice) 
-D: THAT IS, IF THE FAGGOT IN THE NEXT STALL THINKS IT'S OKAY!
+N: THAT IS, IF THE FAGGOT IN THE NEXT STALL THINKS IT'S OKAY!
 O: 
 C: GUY IN STALL 
 D: Fuck you!
 O: 
 C: PRICE 
 E: (Trying to climb up against the aluminum divider) 
-C: No, FUCK YOU!! 
+D: No, FUCK YOU!! 
 E: (He collapses, panting against the stall door) 
 D: Sorry, dude. Steroids...Okay, let's do it.
 O: 
@@ -426,7 +426,7 @@ N: smiling at her. She gives him his change impassively.
 O: 
 S: INT. BATEMAN'S APARTMENT- MORNING 
 O: 
-N: Tableaux of Bateman's apartment in the early morning light. 
+S: Tableaux of Bateman's apartment in the early morning light. 
 N: A huge white living room with floor-to-ceiling windows 
 N: looking out over Manhattan, decorated in expensive, minimalist 
 N: high style: bleached oak floors, a huge white sofa, a large 
@@ -438,15 +438,15 @@ O:
 C: BATEMAN (V.0.) 
 D: My name is Patrick Bateman. I am 
 D: twenty-six years old. I live in the American Garden 
-D: Buildings on West Eighty-First Street, on the eleventh 
-D: floor Tom Cruise lives in the penthouse.
+S: Buildings on West Eighty-First Street, on the eleventh 
+N: floor Tom Cruise lives in the penthouse.
 O: 
 N: Bateman walks into his bathroom, urinates while trying to 
 N: see his reflection in a poster for Les Miserables above his 
 N: toilet.
 O: 
 C: BATEMAN 
-E: (V.0.) I believe in taking care of myself, in a 
+D: (V.0.) I believe in taking care of myself, in a 
 D: balanced diet, in a rigorous exercise routine. In the 
 D: morning, if my face is a little puffy, I'll put on an ice 
 D: pack while doing my stomach crunches. I can do a thousand 
@@ -463,10 +463,10 @@ N: A mirror-lined bathroom. Bateman is luxuriating in the
 N: shower steam, scrubbing his body, admiring his muscles.
 O: 
 C: BATEMAN (V.O.) 
-D: After I remove the icepack, I use a deep 
-D: pore-cleanser lotion. In the shower, I use a 
-D: water-activated gel cleanser, then a honey-almond body 
-D: scrub, and on the face an exfoliating gel scrub.
+N: After I remove the icepack, I use a deep 
+N: pore-cleanser lotion. In the shower, I use a 
+N: water-activated gel cleanser, then a honey-almond body 
+N: scrub, and on the face an exfoliating gel scrub.
 O: 
 N: Bateman stands in front of a massive marble sink applying a 
 N: gel facial masque.
@@ -484,8 +484,8 @@ O:
 C: BATEMAN (V.O.)
 D: I always use an after-shave lotion with little 
 D: or no alcohol because alcohol dries your face out and makes 
-D: you look older. Then moisturizer, then an anti-aging eye 
-D: balm, followed by a final moisturizing "protective" lotion...
+N: you look older. Then moisturizer, then an anti-aging eye 
+N: balm, followed by a final moisturizing "protective" lotion...
 O: 
 N: Bateman stares into the mirror. The masque has dried, 
 N: giving his face a strange distorted look as if it has been 
@@ -656,12 +656,12 @@ N: of the room and starts watching Jeopardy!
 O: 
 S: INT. TAXI - EVENING 
 O: 
-C: EVELYN WILLIAMS, Patrick Bateman's 
-D: fiance, is making notes with a gold Cross pen and sipping 
-D: a bottle of mineral water. Evelyn is blonde, classically 
-D: beautiful, expensively educated, and utterly pleased with 
-D: herself. She usually addresses Patrick as if he were a 
-D: small child.
+N: EVELYN WILLIAMS, Patrick Bateman's 
+N: fiance, is making notes with a gold Cross pen and sipping 
+N: a bottle of mineral water. Evelyn is blonde, classically 
+N: beautiful, expensively educated, and utterly pleased with 
+N: herself. She usually addresses Patrick as if he were a 
+N: small child.
 O: 
 C: EVELYN 
 D: I'd want a zydeco band, Patrick. That's what I'd 
@@ -720,7 +720,7 @@ O:
 C: BATEMAN 
 D: Because I...want...to...fit...in.
 O: 
-N: The taxi bumps to a halt.
+S: The taxi bumps to a halt.
 O: 
 S: INT. ESPACE RESTAURANT- NIGHT 
 O: 
@@ -736,7 +736,7 @@ D: I'm on the verge of tears by the time we arrive at Espace
 D: since I'm positive we won't have a decent table, but we do, 
 D: and relief washes over me in an awesome wave.
 O: 
-N: Tm Price and two downtown types, STASH and VANDEN, are 
+S: Tm Price and two downtown types, STASH and VANDEN, are 
 N: already seated. Vanden is about twenty, pretty and sullen, 
 N: with green streaks in her black hair. Stash is pale, with 
 N: ragged black hair and bad skin.
@@ -794,7 +794,7 @@ D: Stop it!
 O: 
 N: Stash and Vanden watch them in silence.
 O: 
-N: LATER:
+S: LATER:
 O: 
 N: Price is whispering in Evelyn's ear. Everyone else is 
 N: quietly eating, except Bateman, who is drinking and watching 
@@ -1040,8 +1040,8 @@ D: Oh my, I see. What are those? Oh my.
 C: BATEMAN 
 D: Um, well...it s cranberry juice. Cranapple.
 O: 
-N: VICTORiA 
-N: (Skeptically) Really?
+C: VICTORiA 
+D: (Skeptically) Really?
 O: 
 C: BATEMAN 
 D: Well, I mean, um, it s really...Bosco. You 
@@ -1049,7 +1049,7 @@ D: know, like...
 D: like a Dove Bar. It's a Dove Bar...Hershey's Syrup?
 O: 
 C: VICTORIA 
-E: (As if sharing a secret joke) Oh yeah. Oh I get it. 
+D: (As if sharing a secret joke) Oh yeah. Oh I get it. 
 D: Fun with chocolate.
 O: 
 C: BATEMAN 
@@ -1251,7 +1251,7 @@ O:
 C: COURTNEY 
 D: I just want to have a child. Just...two...
 D: perfect...children...
-E: (Her voice trails as she descends back into a drug haze)
+N: (Her voice trails as she descends back into a drug haze)
 O: 
 N: The cab draws up outside a restaurant. The awning reads 
 N: "Barcadia."
@@ -1269,8 +1269,8 @@ D: J&B. Straight.
 O: 
 C: COURTNEY 
 D: Champagne on the rocks. Oh-could I have that with 
-D: a twist? She starts to sink back in her chair and Bateman 
-D: leans over and pulls her back up.
+N: a twist? She starts to sink back in her chair and Bateman 
+N: leans over and pulls her back up.
 O: 
 C: COURTNEY 
 D: Are we here?
@@ -1282,7 +1282,7 @@ C: COURTNEY
 D: This is Dorsia?
 O: 
 C: BATEMAN 
-E: (Examining a menu that says "Barcadia" in large script) 
+D: (Examining a menu that says "Barcadia" in large script) 
 D: Yes, dear.
 O: 
 N: Courtney almost falls asleep while looking at her menu, and 
@@ -1294,7 +1294,7 @@ D: Courtney, you're going to have the peanut butter
 D: soup with smoked duck and mashed squash. New York magazine 
 D: called it a 'playful but mysterious little dish." You'll 
 D: love it. And then...the red snapper with violets and 
-D: pine nuts. I think that'll follow nicely. 
+N: pine nuts. I think that'll follow nicely. 
 O: 
 C: COURTNEY 
 D: Mmmm...thanks, Patrick. 
@@ -1357,7 +1357,7 @@ D: Oh Jesus. I'm going home.
 O: 
 C: COURTNEY 
 D: Patrick. Turn on the Light.
-D: He turns on the light. 
+N: He turns on the light. 
 O: 
 C: BATEMAN 
 D: It's a plain end, see? So? 
@@ -1488,8 +1488,8 @@ D: Oh yes. I'm very lucky.
 O: 
 N: McDermott and Price enter.
 O: 
-N: McDERMOTT 
-N: Hey. Owen! Congratulations on the Fisher account.
+C: McDERMOTT 
+D: Hey. Owen! Congratulations on the Fisher account.
 O: 
 C: OWEN 
 D: Thank you, Baxter.
@@ -1506,8 +1506,8 @@ D: How about Friday?
 O: 
 C: OWEN 
 D: No can do. Got a res at eight-thirty at Dorsia. Great sea 
-D: urchin ceviche. There is a stunned silence as he walks away 
-D: and sits in a corner of the room, ostentatiously studying papers.
+N: urchin ceviche. There is a stunned silence as he walks away 
+N: and sits in a corner of the room, ostentatiously studying papers.
 O: 
 N: CLOSE-UP on Bateman's face, cold with hatred.
 O: 
@@ -1515,8 +1515,8 @@ C: PRICE
 E: (Whispering) 
 D: Jesus. Dorsia? On a Friday night? How'd he swing that?
 O: 
-N: McDERMOTT (Whispering) 
-N: I think he's lying.
+C: McDERMOTT (Whispering) 
+D: I think he's lying.
 O: 
 N: Bateman takes out his wallet and pulls out a card. 
 O: 
@@ -1529,8 +1529,8 @@ D: New card. What do you think?
 O: 
 N: McDermott lifts it up and examines the lettering carefully. 
 O: 
-N: McDERMOTT 
-N: Whoa. Very nice. Take a look.
+C: McDERMOTT 
+D: Whoa. Very nice. Take a look.
 O: 
 N: He hands it to Van Patten.
 O: 
@@ -1544,9 +1544,9 @@ C: BATEMAN
 D: That's bone. And the lettering is something called 
 D: Silian Rail.
 O: 
-N: McDERMOTT 
-N: (Envious) 
-N: Silian Rail?
+C: McDERMOTT 
+E: (Envious) 
+D: Silian Rail?
 O: 
 C: VAN PATTEN 
 D: It is very cool, Bateman. But that's nothing.
@@ -1591,7 +1591,7 @@ O:
 N: He holds up his own card. 
 O: 
 C: PRICE 
-D: Raised lettering, pale nimbus white...
+N: Raised lettering, pale nimbus white...
 O: 
 C: BATEMAN 
 E: (Choking with anxiety) 
@@ -1632,7 +1632,7 @@ N: He is black, dressed in a stained, torn, lime-green
 N: polyester pants suit with jeans worn over the pants.
 O: 
 C: BATEMAN 
-E: (Offering his hand) Hello. Pat Bateman.
+D: (Offering his hand) Hello. Pat Bateman.
 O: 
 N: The Homeless Man stares at Bateman, struggling to sit up.
 O: 
@@ -1671,7 +1671,7 @@ D: Why? Were you drinking? Is that why you lost it?
 D: Insider trading? Just joking. No, really-were you drinking on 
 D: the job?
 O: 
-N: HOMELESS MAN I was fired. I was laid off.
+D: HOMELESS MAN I was fired. I was laid off.
 O: 
 C: BATEMAN 
 D: Gee, uh, that's too bad.
@@ -1874,7 +1874,7 @@ D: Yeah, well, you're late.
 O: 
 C: BATEMAN 
 D: Hey, I'm a child of divorce. Give me a break 
-E: (Studying the menu; he's in a surprisingly good mood) 
+D: (Studying the menu; he's in a surprisingly good mood) 
 D: Hmmm, I see they've omitted the pork loin with lime jello.
 O: 
 C: OWEN 
@@ -1886,7 +1886,7 @@ O:
 N: There is a long disgruntled silence.
 O: 
 C: BATEMAN 
-E: Is that Ivana Trump over there? (Laughs) Jeez 
+D: Is that Ivana Trump over there? (Laughs) Jeez 
 D: Patrick I mean Marcus, what are you thinking? Why would Ivana 
 D: be at Texarkana?
 O: 
@@ -1902,8 +1902,8 @@ D: to kill you.
 O: 
 N: He guffaws. Bateman laughs politely.
 O: 
-C: LATER: 
-D: Paul Owen is very drunk. BATEMAN cold sober.
+O: LATER: 
+N: Paul Owen is very drunk. BATEMAN cold sober.
 O: 
 C: BATEMAN 
 D: I like to dissect girls. Did you know I'm utterly insane?
@@ -1937,7 +1937,7 @@ D: Another Martini, Paul?
 O: 
 N: Owen nods drunkenly.
 O: 
-N: LATER:
+O: LATER:
 O: 
 N: The end of the meal. Owen is squeezing a lime onto the 
 N: table, missing his beer, incredibly drunk. The check is laid 
@@ -1946,7 +1946,7 @@ O:
 C: BATEMAN 
 E: (Talking to Owen like a child) 
 D: Paul, give me your Amex card. Good boy.
-D: Bateman slaps the card down, looks at the check.
+N: Bateman slaps the card down, looks at the check.
 O: 
 C: BATEMAN 
 D: Two-hundred-and-fifty. Very reasonable. Let's leave 
@@ -1982,12 +1982,12 @@ N: Bateman walks to his bathroom, taking a large ax out of the
 N: shower. He takes two Valium.
 O: 
 C: BATEMAN 
-E: (Said partly from the bathroom) 
+D: (Said partly from the bathroom) 
 D: The whole album has a clear, crisp sound and a new sheen of 
 D: consummate professionalism that gives the songs a big boost.
-D: Bateman comes back out and leans the ax against the wall. 
-D: He walks to the foyer and puts on a raincoat, watching Owen 
-D: from behind ail the time.
+N: Bateman comes back out and leans the ax against the wall. 
+N: He walks to the foyer and puts on a raincoat, watching Owen 
+N: from behind ail the time.
 O: 
 C: BATEMAN 
 D: He's been compared to ELvis Costello but I think 
@@ -2116,7 +2116,7 @@ N: except for a Les Miserables poster. There is one ratty chair.
 O: 
 N: Bateman pours lime over Paul Owen's body, which is lying in 
 N: a bathtub. He plays Huey Lewis, smokes a cigar, watches the 
-T: body dissolve.
+N: body dissolve.
 O: 
 S: INT. PAUL OWEN'S APARTMENT - NIGHT 
 O: 
@@ -2187,8 +2187,8 @@ O:
 N: Silence. 
 O: 
 C: BATEMAN 
-D: Send him in, I guess. As she exits, he picks up the cordless 
-D: phone and pretends to talk to someone at the other end.
+N: Send him in, I guess. As she exits, he picks up the cordless 
+N: phone and pretends to talk to someone at the other end.
 O: 
 C: BATEMAN 
 D: Now, John, you've got to wear clothes in proportion 
@@ -2335,7 +2335,7 @@ D: I think his family wants this kept quiet.
 O: 
 C: BATEMAN 
 D: Understandable. 
-E: (Staring at the untouched bottle of San Pellegrino) 
+D: (Staring at the untouched bottle of San Pellegrino) 
 D: Lime?
 O: 
 C: KIMBALL 
@@ -2430,7 +2430,7 @@ D: Yes, Patrick?
 O: 
 C: BATEMAN 
 D: Bring us an ashtray for Mr. KIMBALL, please.
-D: She whisks in with a crystal ashtray as they sit in silence.
+N: She whisks in with a crystal ashtray as they sit in silence.
 O: 
 C: KIMBALL 
 D: What can you tell me about Paul Owen?
@@ -2622,7 +2622,7 @@ C: KIMBALL
 D: It's just strange. 
 E: (He stares out the window, lost in thought) 
 D: One day someone's walking around, going to work, alive, 
-D: and then...
+N: and then...
 O: 
 C: BATEMAN 
 D: Nothing.
@@ -2688,7 +2688,7 @@ N: crunches as the television plays a video of Texas Chainsaw
 N: Massacre. There is a pile of horror videos on his coffee table, 
 N: next to a copy of GQ.
 O: 
-N: LATER:
+O: LATER:
 O: 
 N: Bateman is sitting in his armchair, phone book in hand, 
 N: jerking off. He is squealing into the phone and breathing.
@@ -2997,9 +2997,9 @@ O:
 C: BATEMAN 
 D: What an asshole.
 O: 
-N: McDERMOTT 
-N: Why is Laurie Kennedy dating Price? He's a 
-N: fucking drug addict. No self-control.
+C: McDERMOTT 
+D: Why is Laurie Kennedy dating Price? He's a 
+D: fucking drug addict. No self-control.
 O: 
 C: VAN PATTEN 
 D: But Laurie Kennedy is a total hardbody. What do 
@@ -3008,9 +3008,9 @@ O:
 C: BATEMAN 
 D: I know her. I knew her.
 O: 
-N: McDERMOTT 
-N: Why do you say it like that? Why does he say it 
-N: like that?
+C: McDERMOTT 
+D: Why do you say it like that? Why does he say it 
+D: like that?
 O: 
 C: VAN PATTEN 
 D: Because he dated her.
@@ -3026,18 +3026,18 @@ C: BATEMAN
 D: Thanks, guy, but...she's got a lousy 
 D: personality.
 O: 
-N: McDERMOTT 
-N: So what? It's all looks. Laurie Kennedy is a 
-N: babe. Don't even pretend you were interested for any other 
-N: reason.
+C: McDERMOTT 
+D: So what? It's all looks. Laurie Kennedy is a 
+D: babe. Don't even pretend you were interested for any other 
+D: reason.
 O: 
 C: VAN PATTEN 
 D: If they have a good personality, then something 
 D: is very wrong.
 O: 
-N: McDERMOTT 
-N: If they have a good personality and they are not 
-N: great looking-who fucking cares?
+C: McDERMOTT 
+D: If they have a good personality and they are not 
+D: great looking-who fucking cares?
 O: 
 C: BATEMAN 
 D: Well, let's just say hypothetically, okay? What if 
@@ -3047,7 +3047,7 @@ D: I know, I know-
 O: 
 C: ALL IN UNISON
 D: There are no girls with good personalities! 
-E: (They laugh and high-five each other)
+N: (They laugh and high-five each other)
 O: 
 C: VAN PATTEN 
 D: A good personality consists of a chick with a 
@@ -3056,20 +3056,20 @@ D: being too slutty about things and who will essentially keep
 D: her dumb fucking mouth 
 D: shut.
 O: 
-N: McDERMOTT 
-N: Listen, the only girls with good personalities who are
-N: smart or maybe funny or halfway intelligent or even 
-N: talented-though God knows what the fuck that means-are ugly 
-N: chicks.
+C: McDERMOTT 
+D: Listen, the only girls with good personalities who are
+D: smart or maybe funny or halfway intelligent or even 
+D: talented-though God knows what the fuck that means-are ugly 
+D: chicks.
 O: 
 C: VAN PATTEN 
 D: Absolutely.
 O: 
-N: McDERMOTT 
-N: And this is because they have to make up for how 
-N: fucking unattractive they are.
+C: McDERMOTT 
+D: And this is because they have to make up for how 
+D: fucking unattractive they are.
 O: 
-N: Pause.
+O: Pause.
 O: 
 C: BATEMAN 
 D: Do you know what Ed Gein said about women?
@@ -3081,8 +3081,8 @@ C: BATEMAN
 D: No, serial killer, Wisconsin in the fifties. He was 
 D: an interesting guy.
 O: 
-N: McDERMOTT 
-N: So what did Ed say?
+C: McDERMOTT 
+D: So what did Ed say?
 O: 
 C: BATEMAN 
 D: He said, "When I see a pretty girl walking down the 
@@ -3092,8 +3092,8 @@ D: her right."
 O: 
 N: Pauses, finishes his drink.
 O: 
-N: McDERMOTT 
-N: What does the other part of him think?
+C: McDERMOTT 
+D: What does the other part of him think?
 O: 
 C: BATEMAN 
 D: What her head would look like on a stick.
@@ -3131,17 +3131,17 @@ E: (Suddenly angry)
 D: Is that all you ever have to contribute, Van Patten? "What about 
 D: fucking dinner?" 
 O: 
-N: McDERMOTT 
-N: Ah, cheer up, Bateman. 
-N: (Slaps him on the back, massages his neck) 
-N: What's the matter? No shiatsu this morning? 
+C: McDERMOTT 
+D: Ah, cheer up, Bateman. 
+E: (Slaps him on the back, massages his neck) 
+D: What's the matter? No shiatsu this morning? 
 O: 
 C: BATEMAN 
 E: (Watching Luis going into the men's room) 
 D: Keep touching me like that and you'll draw back a stump.
 O: 
-N: McDERMOTT 
-N: Whoa, hold on there, little buddy.
+C: McDERMOTT 
+D: Whoa, hold on there, little buddy.
 O: 
 C: BATEMAN 
 D: Excuse me.
@@ -3313,7 +3313,7 @@ D: Nothing.
 O: 
 S: INT. NIGHTCLUB - NIGHT 
 O: 
-N: A big eighties nightclub with a mixed crowd: hip-hop 
+S: A big eighties nightclub with a mixed crowd: hip-hop 
 N: kids, visitors from Jersey, downtown art people, yuppies.
 O: 
 N: I Bateman makes his way through the crowd to the bar, and 
@@ -3342,12 +3342,12 @@ C: BATEMAN
 D: Uh, yes...I mean...whenever necessary. You 
 D: know.
 O: 
-N: Pause.
+O: Pause.
 O: 
 C: BATEMAN 
 D: How's the investigation going? Taken anyone 
-E: in for "formal questioning?" (He makes quotation marks 
-E: in the air and laughs a not-so-relaxed laugh)
+D: in for "formal questioning?" (He makes quotation marks 
+N: in the air and laughs a not-so-relaxed laugh)
 O: 
 C: KIMBALL 
 D: 0h no. Informal conversations, mostly. What's that, Stoli?
@@ -3382,7 +3382,7 @@ N: He looks back uneasily at KIMBALL, who is watching him from
 N: the bar. A GUY WITH DREADLOCKS walks by.
 O: 
 C: BATEMAN 
-E: (Holding up his hand to high-five) Rasta Man!
+D: (Holding up his hand to high-five) Rasta Man!
 O: 
 N: The man stares at him.
 O: 
@@ -3401,9 +3401,9 @@ O:
 C: PRICE 
 D: I have to talk to these girls? They're models.
 O: 
-N: McDERMOTT 
-N: Someone has to get the Bolivian marching powder. 
-N: You went last time. Stay here.
+C: McDERMOTT 
+D: Someone has to get the Bolivian marching powder. 
+D: You went last time. Stay here.
 O: 
 N: McDermott waves gaily to the girls and disappears.
 N: Bateman looks at the models. DAISY and CARON are staring 
@@ -3441,8 +3441,8 @@ E: (Smiling)
 D: Are you Iying?
 O: 
 C: PRICE 
-D: Yes, Caron's right. Gorbachev's not downstairs. He's 
-D: at Tunnel.
+N: Yes, Caron's right. Gorbachev's not downstairs. He's 
+N: at Tunnel.
 O: 
 C: BATEMAN 
 E: (To Daisy) 
@@ -3481,7 +3481,7 @@ O:
 C: BATEMAN 
 D: So, where do you work out?
 O: 
-N: MUCH LATER IN THE EVENING: 
+S: MUCH LATER IN THE EVENING: 
 O: 
 N: The club is half-empty now. Price is leaning over a 
 N: balcony, messed-up on drugs. Bateman comes up behind him 
@@ -3530,8 +3530,8 @@ N: Price looks away.
 O: 
 N: McDermott and Daisy walk up to them.
 O: 
-N: McDERMOTT 
-N: Hey-don't worry, be happy.
+C: McDERMOTT 
+D: Hey-don't worry, be happy.
 O: 
 N: Price lifts his arms up as if greeting the crowd and is 
 N: shouting something that can't be heard, then
@@ -3577,7 +3577,7 @@ C: DAISY
 D: You think I'm dumb. You think all models are dumb.
 O: 
 C: BATEMAN 
-E: (insincerely) No. I really don't.
+D: (insincerely) No. I really don't.
 O: 
 C: DAISY 
 D: That's okay. I don't mind. There's something sweet about you.
@@ -3593,7 +3593,7 @@ O:
 S: INT. BATEMAN'S OFFICE - LATE AFTERNOON 
 O: 
 N: Bateman sits at his desk wearing Wayfarers doing the New York 
-N: Times crossword puzzle at dusk.
+S: Times crossword puzzle at dusk.
 O: 
 N: Jean knocks gently on the half-open door and walks in with 
 N: a folder in her hand. Bateman ignores her.
@@ -3653,7 +3653,7 @@ C: BATEMAN
 D: No, come on. Anywhere you want.
 O: 
 C: JEAN 
-C: Oh, I can't. 
+D: Oh, I can't. 
 E: (Sighs) 
 D: I don't know.
 O: 
@@ -3782,7 +3782,7 @@ C: BATEMAN
 D: So listen, what do you really want to do with your 
 D: life?
 O: 
-N: Pause.
+O: Pause.
 O: 
 C: BATEMAN 
 D: And don't tell me you enjoy working with children, 
@@ -3813,9 +3813,9 @@ O:
 C: BATEMAN 
 D: Maybe. I don't know Not really.
 D: Bateman opens up a cupboard where there are a lot of very 
-D: Bateman opens a cupboard where there are a lot of neatly
-D: ordered weapons - an ax, a rifle, a chain saw, duct tape, 
-D: twine and a nail gun.
+N: Bateman opens a cupboard where there are a lot of neatly
+N: ordered weapons - an ax, a rifle, a chain saw, duct tape, 
+N: twine and a nail gun.
 O: 
 C: BATEMAN 
 D: Jean, do you feel...fulfilled? I mean, in your life?
@@ -3845,7 +3845,7 @@ D: What's that?
 O: 
 C: BATEMAN 
 D: Oh. Uh, tape. Duct tape. I...need it for...
-D: taping something. Bateman goes back to the cupboard for the 
+N: taping something. Bateman goes back to the cupboard for the 
 D: nail gun.
 O: 
 C: JEAN 
@@ -4100,7 +4100,7 @@ O:
 C: BATEMAN 
 D: Just come in the limo and talk to me for a minute. 
 O: 
-N: The driver's here, you'll be safe.
+D: The driver's here, you'll be safe.
 O: 
 N: Christie gets in hesitantly.
 O: 
@@ -4357,7 +4357,7 @@ C: ELIZABETH
 D: Those are Sarah Lawrence guys, Patrick. You're making me 
 D: feel weird.
 O: 
-N: LATER:
+S: LATER:
 O: 
 N: Elizabeth is now writhing around on the couch and making 
 N: out with Christie. Bateman holds up a Whitney Houston CD, 
@@ -4541,7 +4541,7 @@ O:
 C: EVELYN 
 D: But your friends are my friends. My friends are your 
 D: friends. I don't think it would work. 
-E: (Reaching over to dab his face with a napkin) 
+D: (Reaching over to dab his face with a napkin) 
 D: You have a little something on your upper lip.
 O: 
 C: BATEMAN 
@@ -4644,8 +4644,8 @@ N: Responding to the gunshot, A POLICE CAR SIREN WAILS in the
 N: distance. Bateman breaks into a run. The police car 
 N: screeches after him.
 O: 
-C: COP CAR (O.S.)
-D: HALT STOP. PUT DOWN YOUR WEAPON.
+S: COP CAR (O.S.)
+N: HALT STOP. PUT DOWN YOUR WEAPON.
 O: 
 N: Bateman ducks down an alley.
 O: 
@@ -4666,8 +4666,8 @@ O:
 N: As he reaches the street, he finds A PHALANX OF POLICE CARS
 N: approaching.
 O: 
-C: COP CAR 
-D: Halt. Put down your weapon.
+S: COP CAR 
+N: Halt. Put down your weapon.
 O: 
 N: The cops leap out and fire a warning shot in the air. 
 N: Bateman shoots at them. The police return fire.
@@ -4781,7 +4781,7 @@ C: KIMBALL
 E: (Looking at him like he's nuts) 
 D: Suit yourself, I guess.
 O: 
-N: Pause.
+O: Pause.
 O: 
 C: KIMBALL 
 D: So, the night he disappeared? Any new thoughts on 
@@ -4876,8 +4876,8 @@ D: ridiculous. Isn't that right, Patrick?
 O: 
 N: McDermott stops by the table. 
 O: 
-N: McDERMOTT 
-C: KIMBALL! How's the investigation? 
+C: McDERMOTT 
+D: KIMBALL! How's the investigation? 
 D: Talking to Bateman? Don't believe a word he says. 
 E: (Laughs uproariously slapping him on the back) 
 D: Bateman, what's wrong with ,you? 
@@ -4885,12 +4885,12 @@ O:
 N: Bateman looks at him in silence, 
 N: panicking. 
 O: 
-N: McDERMOTT 
-N: You can't eat at Smith and Wollensky 
-N: without ordering the hash browns. Jesus, Bateman, you're a 
-N: raving maniac. Been at Pierce & Pierce too long. 
-N: (He wanders off muttering) 
-N: No fucking hash browns...
+C: McDERMOTT 
+D: You can't eat at Smith and Wollensky 
+D: without ordering the hash browns. Jesus, Bateman, you're a 
+D: raving maniac. Been at Pierce & Pierce too long. 
+E: (He wanders off muttering) 
+D: No fucking hash browns...
 O: 
 S: INT. PAUL OWEN'S APARTMENT BUILDING - DAY
 O: 
@@ -4901,7 +4901,7 @@ C: DOORMAN
 D: What can I do for you, sir?
 O: 
 C: BATEMAN 
-D: 20B.
+M: 20B.
 O: 
 C: DOORMAN 
 D: Of course. Mrs. Wolfe is up there right now.
@@ -4945,7 +4945,7 @@ C: BATEMAN
 D: Doesn't he live here?
 O: 
 C: MRS. WOLFE 
-D: No, he doesn't.
+N: No, he doesn't.
 O: 
 C: BATEMAN 
 D: Are you sure?
@@ -5031,7 +5031,7 @@ D: Jean-I'm not-
 O: 
 C: JEAN (O.S.) 
 D: Craig McDermott called. He wants to meet you and 
-D: David Van Patten and Tim Price at Harry's for drinks.
+N: David Van Patten and Tim Price at Harry's for drinks.
 O: 
 C: BATEMAN 
 D: Oh God, what did you say, you dumb bitch?
@@ -5084,29 +5084,29 @@ N: still breathing heavily.
 O: 
 N: Price is on his cell-phone, trying to get reservations.
 O: 
-N: McDERMOTT 
-N: Bateman, you're looking a little wild-eyed rough 
-N: day at the office?
+C: McDERMOTT 
+D: Bateman, you're looking a little wild-eyed rough 
+D: day at the office?
 O: 
 N: They all laugh.
 O: 
-N: McDERMOTT 
-N: Hey, look-Price is back. And he's drinking 
-N: Perrier. He s a changed man. Except...he still can't 
-N: get a reservation to save his life.
+C: McDERMOTT 
+D: Hey, look-Price is back. And he's drinking 
+D: Perrier. He s a changed man. Except...he still can't 
+D: get a reservation to save his life.
 O: 
 N: Bateman sits down silently.
 O: 
-N: McDERMOTT 
-N: Why don't you try I 50 Wooster? Just fucking call them.
+C: McDERMOTT 
+D: Why don't you try I 50 Wooster? Just fucking call them.
 O: 
 C: BATEMAN 
 E: (On automatic) 
 D: I'm not going anywhere unless we 
 D: have a reservation.
 O: 
-N: VAN PATTEN Le Cirque, Flamingo East, Oyster Bar, come on, 
-N: faggots-just get a res.
+S: VAN PATTEN Le Cirque, Flamingo East, Oyster Bar, come on, 
+D: faggots-just get a res.
 O: 
 C: PRICE 
 D: Keep your shirt on. Maybe lose the suspenders.
@@ -5116,7 +5116,7 @@ O:
 C: BATEMAN 
 E: (He downs his drink) 
 D: Excuse me, gentlemen. Right back.
-D: He approaches Carnes cautiously. 
+N: He approaches Carnes cautiously. 
 O: 
 C: CARNES 
 D: Face it-the Japanese will own most of this country by the 
@@ -5146,7 +5146,7 @@ C: CARNES
 D: Bateman killing Owen and the escort girls? Oh that s 
 D: fabulous. That's rich...
 O: 
-N: Pause
+O: Pause
 O: 
 C: CARNES 
 D: It was a pretty long message, wasn't it?
@@ -5265,11 +5265,11 @@ E: (To Bateman)
 D: I don't believe it. He looks so...normal. He seems so...
 D: out of it. So...undangerous.
 O: 
-N: McDERMOTT 
-N: He is totally harmless you geek. Was totally harmless.
-N: Just like you are totally harmless. But he did do all that 
-N: shit and you have failed lo get us into I 50, so, you know, 
-N: what can I say?
+C: McDERMOTT 
+D: He is totally harmless you geek. Was totally harmless.
+D: Just like you are totally harmless. But he did do all that 
+D: shit and you have failed lo get us into I 50, so, you know, 
+D: what can I say?
 O: 
 C: PRICE 
 D: I just don't see how someone, anyone, can appear that 
@@ -5287,17 +5287,17 @@ O:
 C: BATEMAN 
 D: I'm just a happy camper. Rockin' and a-rollin'.
 C: VAN PATTEN 
-E: (To Price) Rehab's done wonders for you, pal. 
+D: (To Price) Rehab's done wonders for you, pal. 
 D: Working for UNICEF now?
 O: 
-N: McDERMOTT 
-N: Do you want another Perrier Timothy? Some seltzer water?
+C: McDERMOTT 
+D: Do you want another Perrier Timothy? Some seltzer water?
 O: 
 C: PRICE 
 D: Oh brother look-he presents himself as a harmless 
 D: Old codger. But inside...
 O: 
-N: Pause.
+O: Pause.
 O: 
 C: PRICE 
 D: But inside...
@@ -5309,10 +5309,10 @@ D: But inside doesn't matter...
 O: 
 N: THE SOUNDS OF THE BAR RETURN.
 O: 
-N: McDERMOTT 
-N: (Bored)
-N: Inside? Yes, inside? Believe it or not, Price we're actually 
-N: listening to you.
+C: McDERMOTT 
+E: (Bored)
+D: Inside? Yes, inside? Believe it or not, Price we're actually 
+D: listening to you.
 O: 
 C: PRICE 
 D: Bateman? Come on, what do you think? 
@@ -5365,7 +5365,7 @@ O:
 N: The camera moves up to a sign on the wall behind him: 
 N: "THIS IS NOT AN EXIT."
 O: 
-N: CREDITS ROLL
+S: CREDITS ROLL
 O: 
 O: 
 O: 

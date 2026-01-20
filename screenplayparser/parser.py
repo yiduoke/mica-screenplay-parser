@@ -72,9 +72,10 @@ class ScreenplayParser:
                 device_id = -1
                 device = torch.device("cpu")
             self.parser = RobustScreenplayParser(38, 8, True, device_index=device_id)
-            self.parser.load_state_dict(torch.load(os.path.join(os.getenv("PROJ_DIR"), 
-                                                                "mica-screenplay-parser/screenplayparser/model.pt"), 
-                                        map_location=device))
+
+            # Find model.pt relative to this file
+            model_path = os.path.join(os.path.dirname(__file__), "model.pt")
+            self.parser.load_state_dict(torch.load(model_path, map_location=device, weights_only=False), strict=False)
             self.parser.to(device)
             self.parser.eval()
 

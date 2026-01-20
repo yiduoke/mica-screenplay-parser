@@ -113,7 +113,30 @@ def separate_dial_meta(line_str):
 # DIALOGUE IS WHATEVER IMMEDIATELY FOLLOWS CHARACTER
 # EITHER CHARACTER OR DIALOGUE MIGHT CONTAIN DILAOGUE METADATA; WILL BE DETECTED LATER
 def get_char_dial(script_noind, tag_vec, tag_set, char_max_words):
-	char_ind = [i for i, x in enumerate(script_noind) if tag_vec[i] not in tag_set and any([y.isupper() for y in x.split()])\
+	def is_irish_scottish_name(text):
+		# Check for Irish/Scottish naming patterns: McDERMOTT, MacTAVISH
+		# Note: O'BRIEN already works with .isupper() since apostrophe is not a letter
+		words = text.split()
+		if not words:
+			return False
+		for word in words:
+			# Remove parentheticals
+			clean_word = word.strip('()')
+			if not clean_word:
+				continue
+			# Check for Mc/Mac patterns (lowercase c makes .isupper() fail)
+			if clean_word.startswith(("Mc", "Mac")):
+				# Check if rest is uppercase
+				rest = clean_word[2:] if clean_word.startswith("Mc") else clean_word[3:]
+				if rest and rest.isupper():
+					return True
+		return False
+
+	def has_uppercase_word(text):
+		# Original check: at least one fully uppercase word
+		return any([y.isupper() for y in text.split()])
+
+	char_ind = [i for i, x in enumerate(script_noind) if tag_vec[i] not in tag_set and (has_uppercase_word(x) or is_irish_scottish_name(x))\
 														and i != 0 and i != (len(script_noind) - 1)\
 														# and len(script_noind[i - 1].split()) == 0\
 														and len(script_noind[i + 1].split()) > 0\
@@ -144,6 +167,16 @@ def get_char_dial(script_noind, tag_vec, tag_set, char_max_words):
 	return tag_vec
 
 
+# FIX CHARACTER-DIALOGUE ERRORS
+# If previous line is Expression (E), current line must be Dialogue (D), not Character (C)
+def fix_char_dial_errors(script_noind, tag_vec):
+	for i in range(1, len(tag_vec)):
+		# If previous line was an expression and current is tagged as character, change to dialogue
+		if tag_vec[i-1] == 'E' and tag_vec[i] == 'C':
+			tag_vec[i] = 'D'
+	return tag_vec
+
+
 # DETECT SCENE DESCRIPTION
 # LOOK FOR REMAINING LINES THAT ARE NOT PAGE BREAKS
 def get_scene_desc(script_noind, tag_vec, tag_set):
@@ -152,7 +185,7 @@ def get_scene_desc(script_noind, tag_vec, tag_set):
 															not x.strip('.').isdigit()]
 	for x in desc_ind:
 		tag_vec[x] = 'N'
-    
+
 	return tag_vec
 
 
@@ -400,6 +433,8 @@ def parse_lines(lines):
 	tag_vec = get_meta(script_noind, tag_vec, tag_set, meta_thresh, meta_set, sent_thresh, bound_ind, trans_ind)
 	# DETECT CHARACTER-DIALOGUE
 	tag_vec = get_char_dial(script_noind, tag_vec, tag_set, char_max_words)
+	# FIX CHARACTER-DIALOGUE ERRORS
+	tag_vec = fix_char_dial_errors(script_noind, tag_vec)
 	# DETECT SCENE DESCRIPTION
 	tag_vec = get_scene_desc(script_noind, tag_vec, tag_set)
 	#------------------------------------------------------------------------------------
@@ -457,6 +492,8 @@ def parse(file_orig, save_dir, abr_flag, tag_flag, char_flag, save_name=None, ab
 	tag_vec = get_meta(script_noind, tag_vec, tag_set, meta_thresh, meta_set, sent_thresh, bound_ind, trans_ind)
 	# DETECT CHARACTER-DIALOGUE
 	tag_vec = get_char_dial(script_noind, tag_vec, tag_set, char_max_words)
+	# FIX CHARACTER-DIALOGUE ERRORS
+	tag_vec = fix_char_dial_errors(script_noind, tag_vec)
 	# DETECT SCENE DESCRIPTION
 	tag_vec = get_scene_desc(script_noind, tag_vec, tag_set)
 	#------------------------------------------------------------------------------------
